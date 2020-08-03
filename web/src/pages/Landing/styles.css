@@ -6,8 +6,8 @@
    justify-content: center;
    align-items: center;
 
-   color: var(--color-text-in-primary);
-   background: var(--color-primary)
+   color: var(--text-in-primary);
+   background: var(--primary)
 }
 
 .logo-container img {
@@ -40,14 +40,14 @@
    width: 30rem;
    height: 10.4rem;
    border-radius: 0.8rem;
-   font: 700 2.0rem Archivo;
+   font: 700 2rem Archivo;
 
    display: flex;
    align-items: center;
    justify-content: center;
 
    text-decoration: none;
-   color: var(--color-button-text);
+   color: var(--button-text);
 
    transition: background-color 0.2s;
 }
@@ -60,22 +60,22 @@
 }
 
 .buttons-container a.study {
-   background: var(--color-primary-lighter);
+   background: var(--primary-lighter);
    
 }
 
 .buttons-container a.give-classes {
-   background: var(--color-secundary);
+   background: var(--secundary);
    
 }
 
 .buttons-container a.study:hover {
-   background: var(--color-primary-light);
+   background: var(--primary-light);
    
 }
 
 .buttons-container a.give-classes:hover {
-   background: var(--color-secundary-dark);
+   background: var(--secundary-dark);
    
 }
 .buttons-container a img {
@@ -110,16 +110,14 @@
       grid-area: logo;
       align-self: center;
       margin: 0;
+      text-align: left;
+   }
+   .logo-container img {
+      height: 100%;
    }
    .logo-container h2 {
       text-align: initial;
       font-size: 3.6rem;
-   }
-   .logo-container img {
-      height: 100%;
-
-
-
    }
    .hero-image {
       grid-area: hero;
