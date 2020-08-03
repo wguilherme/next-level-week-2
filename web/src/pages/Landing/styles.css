@@ -49,7 +49,7 @@
    text-decoration: none;
    color: var(--button-text);
 
-   transition: background-color 0.2s;
+   transition: all .2s;
 }
 
 .buttons-container a:first-child {
@@ -57,6 +57,7 @@
 }
 .buttons-container a img {
    width: 4rem;
+   margin-right: 2.4rem;
 }
 
 .buttons-container a.study {
