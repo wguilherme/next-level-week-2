@@ -1,13 +1,11 @@
 import { Request, Response } from 'express';
 import db from '../database/connection';
 import convertHourToMinutes from '../utils/convertHourToMinutes';
-
 interface ScheduleItem {
    week_day: number,
    from: string,
    to: string
 }
-
 export default class ClassesController {
 
    async index(req: Request, res: Response) {
